@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+
+    <style>
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#container{
+    background-color: rgb(255, 233, 214);
+    display: flex;
+    height: 450px;
+    width: 338px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30%;
+    background-image: url(assets/img/honey.jpg);
+    background-size: cover;
+    background-position: 30%;
+    align-items: center;
+    justify-content: center;
+    background-size: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.testo{
+    font-size: 12px;
+    margin-top: 276px;
+    margin-left: -22px;
+    font-weight: bold;
+    color: rgb(102, 5, 5);
+
+}
+.valore{
+    font-size: 13px;
+    margin-top: 228px;
+    margin-left: -98px;
+    font-weight: bold;
+    color: rgb(102, 5, 5);
+}
+
+.line{
+    font-weight: 200;
+    font-size: 15px;
+    text-indent: 20px;
+}
+#cart {
+    top: 50%;
+    background-color: #ffdf7f;
+    color:  #752305;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-left: 63px;
+    margin-bottom: -51px;
+ }
+
+ p{
+    font-size: 1rem;
+    color: #752305;
+    margin-left: 219px;
+    margin-top: -18px;
+    
+ }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="testo">
+            <h1>100% Bio Honey</h1>
+            <div><span class="line">Italian, not treated</span></div>
+            <div>
+            <p>7$/Kg</p>
+            </div>
+            <div><Button id="cart">Add to Cart</Button></div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
